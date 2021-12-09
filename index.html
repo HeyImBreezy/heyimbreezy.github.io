@@ -8,11 +8,21 @@
         font-family: 'Roboto', serif;
         text-align: center;
         color: white;
-        background-color:#1c87c9;
+        background-image: url("background.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
       }
-      div {
+      .header {
         font-size: 48px;
         padding: 60px;
+      }
+      .box
+      {
+        margin: auto;
+        padding: 20px;
+        background-color: rgba(0,0,0, 0.6);
+        border-radius: 10px;
+        width: 40%;
       }
       p {
         font-size: 30px;
@@ -21,10 +31,12 @@
   </head>
   <body>
     <tab></tab>
-    <div>Hey, I'm Breezy!</div>
+    <div class="header">Hey, I'm Breezy!</div>
+    <div class="box">
     <p>This website is temporary, but go check out my game servers:</p>
     <p>Breezy's SCP: scpsl.heyimbreezy.me</p>
     <p>Breezy's SMP: mc.heyimbreezy.me</p>
+    </div>
     </p>
   </body>
 </html>
