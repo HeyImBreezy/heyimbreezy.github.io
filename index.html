@@ -18,25 +18,45 @@
       }
       .box
       {
-        margin: auto;
-        padding: 20px;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 25px;
         background-color: rgba(0,0,0, 0.6);
         border-radius: 10px;
         width: 40%;
+        backdrop-filter: blur(6px);
       }
-      p {
+      .socials
+      {
+        column-count: 3;
+      }
+      .servers
+      {
+        display: grid;
+        grid-auto-rows: 1.5em;
+      }
+      div {
         font-size: 30px;
       }
     </style>
   </head>
   <body>
     <tab></tab>
-    <div class="header">Hey, I'm Breezy!</div>
-    <div class="box">
-    <p>This website is temporary, but go check out my game servers:</p>
-    <p>Breezy's SCP: scpsl.heyimbreezy.me</p>
-    <p>Breezy's SMP: mc.heyimbreezy.me</p>
+    <div class="header">Hey - I'm Breezy!</div>
+    <div class="box socials">
+    <div>Discord: Breezy#1673</div>
+    <div>Twitter: @HeyImBreezyy</div>
+    <div>Reddit: /u/HeyImBreezy</div>
     </div>
-    </p>
+    <div class="box servers">
+    <div>Check out my game servers!</div>
+    <div>SCPSL: scpsl.heyimbreezy.me</div>
+    <div>Minecraft: mc.heyimbreezy.me</div>
+    </div>
+    </div>
+    <div class="box">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/vPwaXytZcgI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
   </body>
 </html>
